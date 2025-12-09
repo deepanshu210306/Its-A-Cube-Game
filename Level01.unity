@@ -18774,8 +18774,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228603155986083762, guid: 1be9466341b2bf543989a4bb2558ac7e, type: 3}
+      propertyPath: forwardForce
+      value: 4000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228603155986083762, guid: 1be9466341b2bf543989a4bb2558ac7e, type: 3}
       propertyPath: forwardforce
       value: 4000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228603155986083762, guid: 1be9466341b2bf543989a4bb2558ac7e, type: 3}
+      propertyPath: sidewaysForce
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3228603155986083762, guid: 1be9466341b2bf543989a4bb2558ac7e, type: 3}
       propertyPath: sidewaysforce

@@ -1,32 +1,26 @@
-# Its A Cube (Unity)
+# It's A Cube Game
 
-A simple endless runner game made in Unity.
+A simple forward-runner game built in Unity with support for **Keyboard**, **Touchscreen**, and **Quest 3 VR Controllers** using the new Input System.
+
+## Controls
+**PC**
+- A / Left Arrow → Move Left  
+- D / Right Arrow → Move Right  
+
+**Mobile (Touch)**
+- Touch left half → Move Left  
+- Touch right half → Move Right  
+
+**Quest 3 (OpenXR)**
+- Thumbstick (Primary2DAxis) → Left / Right movement
 
 ## Features
-- Score system (updates as player moves forward)
-- Game Over screen with:
-  - Restart button
-  - Quit button
-- Background music that fades out in 3 seconds on Game Over
-- Clean UI with world-space score display
+- Endless forward movement  
+- Touch + VR controller support  
+- Game over + restart  
+- Background music with fade-out  
 
-## Controls (PC)
-- Move Left: A / Left Arrow
-- Move Right: D / Right Arrow
-
-## How It Works
-- Player moves left/right based on input
-- Score = distance travelled
-- When the player dies, GameManager shows Game Over UI and fades out music
-- Restart reloads the current scene
-- Quit closes the game
-
-## Setup
-1. Add your music file to **Assets/Music**
-2. Assign it to the **AudioSource** on the Music object
-3. Attach **MusicFader.cs** and assign the AudioSource
-4. Assign UI elements (ScoreText, GameOverPanel) in GameManager inspector
-
-## Build Instructions
-- File → Build Settings → Windows → Build & Run
+## Download
+The installer/build is available in the **Releases** section of this repository.  
+Go to **Releases → Latest** and download the `.exe` installer.
 
